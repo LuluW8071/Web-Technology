@@ -1,9 +1,6 @@
 #### Custom Google Search Page
 ![Custom Google Search Page](Custom_StartPage/images/image.png)
 
-#### Html Tags and Elements
-![Html Tags & Elements](HTML_Tags\assets\screenshot.gif)
-
 #### Clock Js
 ![Clock](Clock/images/image.png)
 
