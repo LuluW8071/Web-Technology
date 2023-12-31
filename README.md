@@ -1,35 +1,30 @@
-#### Assignment1
-Create a search HTML page by linking google search using inline, external and internal(tags)
+#### Custom Google Search Page
+![Custom Google Search Page](Custom_StartPage/images/image.png)
 
-#### Assignment1_Revision
-[Click here to watch video👉](https://www.youtube.com/watch?v=BwtNi2mpe5w)
-![Custom Google Search Page](Assignment1_Revision/images/image.png)
+#### Html Tags and Elements
+![Html Tags & Elements](HTML_Tags\assets\screenshot.gif)
 
-#### Assignment2
-Html Tags, HTML5 tags and tables, HTML Form Elements
+#### Clock Js
+![Clock](Clock/images/image.png)
 
-#### Assignment3 
-Clock Js
-![Clock](Assignment3/images/image.png)
+#### Form Validation 
+![Form Validation](Form_Registration/image/screenshot.png)
 
-#### Assignment4
-Form Validation 
-![Form Validation](Assignment4/image/screenshot.png)
-
-#### Assignment6
-Form validation with Php and MySQL database <br>
-Note: Change the table_name to your own table in MySQL database
-```
+#### Form validation with Php and MySQL database
+<i>Note: Change the table_name to your own table in MySQL database</i>
+```bash
 <!-- home.php -->
 $select_query = "SELECT * FROM ==table_name== WHERE name = :username AND password = :password";
+```
+```bash
 <!-- signup.php -->
 $insert_query = "INSERT INTO ==table_name==(name, password, address) VALUES (:username, :password, :address)";
 ```
 
-#### Assignment7
-Ajax Search 
-![Form Validation](Assignment7/images/screenshot.png)
-```
+#### Ajax Search 
+![Ajax](Ajax/images/screenshot.png)
+
+```bash
 <!-- server.php -->
 $select_query = "SELECT username, address, contact FROM table_name WHERE username LIKE '%".$_GET['search']."%'";
 ```
